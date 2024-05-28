@@ -7,6 +7,7 @@ export class UserController {
 
   @Get()
   public async getUsers() {
+    console.log('test');
     return this.getUsersUseCase.getUsers();
   }
 }
